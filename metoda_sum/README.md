@@ -1,9 +1,5 @@
-# Systemy Kolejkowe
-Repozytorium zawiera implementacje systemów kolejkowych:
-1. System mieszany - zawiera implementacje wzorów pozwalających na przybliżoną estymację parametrów modelu M/M/m/FIFO/m+N  
-2. Implementacja metody sum
-  
-   
-Funkcje zaimplementowano z wykorzystaniem prac:  
-1. B. FILIPOWICZ and J. KWIECIEŃ, Queueing systems and networks. Models and applications, BULLETIN OF THE POLISH ACADEMY OF SCIENCES TECHNICAL SCIENCES Vol. 56, No. 4, 2008  
-2. Bolch, S. Greiner, H. de Meer, and K.S. Trivedi, Queueing Networks and Markov Chains. Modelling and Performance Evaluation with Computer Science Applications, John Wiley&Sons, Inc., London, 1998
+# Metoda sum
+
+Założeniami projektu jest wykorzystanie metody SUM oraz przyjęty brak możliwości zmiany przynależności do klasy przez zgłoszenie. Użytkownik musi znać parametry sieci, którą chce zamodelować takie jak: liczba zgłoszeń każdej klasy w systemie, ilość oraz typy systemów w sieci oraz prawdopodobieństwa przejść dla każdej klasy. 
+
+Aplikacja zawiera w sobie 2 programy, jeden pozwalający na obliczenia dla systemu zamkniętego w przypadku, kiedy posiadamy tylko jedną klasę zgłoszeń oraz drugi oferujący możliwość zbadania sieci z wieloma zgłoszeniami. Oba programy są odpowiednio podpisane. 
